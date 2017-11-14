@@ -22,81 +22,81 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.btmMOD = New System.Windows.Forms.Button()
+        Me.btnPlus = New System.Windows.Forms.Button()
+        Me.btnTimes = New System.Windows.Forms.Button()
+        Me.btnMinuse = New System.Windows.Forms.Button()
+        Me.btnDivide = New System.Windows.Forms.Button()
+        Me.btnPower = New System.Windows.Forms.Button()
+        Me.btnMOD = New System.Windows.Forms.Button()
         Me.lblNumber1 = New System.Windows.Forms.Label()
         Me.lblOperation = New System.Windows.Forms.Label()
         Me.lblNumber2 = New System.Windows.Forms.Label()
         Me.Result = New System.Windows.Forms.Label()
         Me.btnClear = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.txtNumber1 = New System.Windows.Forms.TextBox()
+        Me.txtResult = New System.Windows.Forms.TextBox()
+        Me.txtNumber2 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
-        'Button1
+        'btnPlus
         '
-        Me.Button1.Location = New System.Drawing.Point(306, 105)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(54, 46)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "+"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnPlus.Location = New System.Drawing.Point(306, 105)
+        Me.btnPlus.Name = "btnPlus"
+        Me.btnPlus.Size = New System.Drawing.Size(54, 46)
+        Me.btnPlus.TabIndex = 0
+        Me.btnPlus.Text = "+"
+        Me.btnPlus.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btnTimes
         '
-        Me.Button3.Location = New System.Drawing.Point(484, 105)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(54, 46)
-        Me.Button3.TabIndex = 10
-        Me.Button3.Text = "*"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnTimes.Location = New System.Drawing.Point(484, 105)
+        Me.btnTimes.Name = "btnTimes"
+        Me.btnTimes.Size = New System.Drawing.Size(54, 46)
+        Me.btnTimes.TabIndex = 10
+        Me.btnTimes.Text = "*"
+        Me.btnTimes.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnMinuse
         '
-        Me.Button2.Location = New System.Drawing.Point(394, 105)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(54, 46)
-        Me.Button2.TabIndex = 11
-        Me.Button2.Text = "-"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnMinuse.Location = New System.Drawing.Point(394, 105)
+        Me.btnMinuse.Name = "btnMinuse"
+        Me.btnMinuse.Size = New System.Drawing.Size(54, 46)
+        Me.btnMinuse.TabIndex = 11
+        Me.btnMinuse.Text = "-"
+        Me.btnMinuse.UseVisualStyleBackColor = True
         '
-        'Button4
+        'btnDivide
         '
-        Me.Button4.Location = New System.Drawing.Point(571, 105)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(54, 46)
-        Me.Button4.TabIndex = 12
-        Me.Button4.Text = "/"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.btnDivide.Location = New System.Drawing.Point(571, 105)
+        Me.btnDivide.Name = "btnDivide"
+        Me.btnDivide.Size = New System.Drawing.Size(54, 46)
+        Me.btnDivide.TabIndex = 12
+        Me.btnDivide.Text = "/"
+        Me.btnDivide.UseVisualStyleBackColor = True
         '
-        'Button6
+        'btnPower
         '
-        Me.Button6.Location = New System.Drawing.Point(412, 182)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(54, 46)
-        Me.Button6.TabIndex = 14
-        Me.Button6.Text = "^"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.btnPower.Location = New System.Drawing.Point(412, 182)
+        Me.btnPower.Name = "btnPower"
+        Me.btnPower.Size = New System.Drawing.Size(54, 46)
+        Me.btnPower.TabIndex = 14
+        Me.btnPower.Text = "^"
+        Me.btnPower.UseVisualStyleBackColor = True
         '
-        'btmMOD
+        'btnMOD
         '
-        Me.btmMOD.Location = New System.Drawing.Point(484, 182)
-        Me.btmMOD.Name = "btmMOD"
-        Me.btmMOD.Size = New System.Drawing.Size(54, 46)
-        Me.btmMOD.TabIndex = 15
-        Me.btmMOD.Text = "MOD"
-        Me.btmMOD.UseVisualStyleBackColor = True
+        Me.btnMOD.Location = New System.Drawing.Point(484, 182)
+        Me.btnMOD.Name = "btnMOD"
+        Me.btnMOD.Size = New System.Drawing.Size(54, 46)
+        Me.btnMOD.TabIndex = 15
+        Me.btnMOD.Text = "MOD"
+        Me.btnMOD.UseVisualStyleBackColor = True
         '
         'lblNumber1
         '
         Me.lblNumber1.AutoSize = True
-        Me.lblNumber1.Location = New System.Drawing.Point(54, 91)
+        Me.lblNumber1.Location = New System.Drawing.Point(54, 53)
         Me.lblNumber1.Name = "lblNumber1"
         Me.lblNumber1.Size = New System.Drawing.Size(53, 13)
         Me.lblNumber1.TabIndex = 16
@@ -114,7 +114,7 @@ Partial Class Form1
         'lblNumber2
         '
         Me.lblNumber2.AutoSize = True
-        Me.lblNumber2.Location = New System.Drawing.Point(54, 215)
+        Me.lblNumber2.Location = New System.Drawing.Point(54, 257)
         Me.lblNumber2.Name = "lblNumber2"
         Me.lblNumber2.Size = New System.Drawing.Size(53, 13)
         Me.lblNumber2.TabIndex = 18
@@ -147,59 +147,59 @@ Partial Class Form1
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'txtNumber1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(412, 46)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 22
+        Me.txtNumber1.Location = New System.Drawing.Point(412, 46)
+        Me.txtNumber1.Name = "txtNumber1"
+        Me.txtNumber1.Size = New System.Drawing.Size(100, 20)
+        Me.txtNumber1.TabIndex = 22
         '
-        'TextBox2
+        'txtResult
         '
-        Me.TextBox2.Location = New System.Drawing.Point(412, 322)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 23
+        Me.txtResult.Location = New System.Drawing.Point(394, 322)
+        Me.txtResult.Name = "txtResult"
+        Me.txtResult.Size = New System.Drawing.Size(100, 20)
+        Me.txtResult.TabIndex = 23
         '
-        'TextBox3
+        'txtNumber2
         '
-        Me.TextBox3.Location = New System.Drawing.Point(394, 250)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 24
+        Me.txtNumber2.Location = New System.Drawing.Point(394, 250)
+        Me.txtNumber2.Name = "txtNumber2"
+        Me.txtNumber2.Size = New System.Drawing.Size(100, 20)
+        Me.txtNumber2.TabIndex = 24
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(925, 492)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtNumber2)
+        Me.Controls.Add(Me.txtResult)
+        Me.Controls.Add(Me.txtNumber1)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.Result)
         Me.Controls.Add(Me.lblNumber2)
         Me.Controls.Add(Me.lblOperation)
         Me.Controls.Add(Me.lblNumber1)
-        Me.Controls.Add(Me.btmMOD)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnMOD)
+        Me.Controls.Add(Me.btnPower)
+        Me.Controls.Add(Me.btnDivide)
+        Me.Controls.Add(Me.btnMinuse)
+        Me.Controls.Add(Me.btnTimes)
+        Me.Controls.Add(Me.btnPlus)
         Me.Name = "Form1"
         Me.Text = "Simple Calculator"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button4 As System.Windows.Forms.Button
-    Friend WithEvents Button6 As System.Windows.Forms.Button
-    Friend WithEvents btmMOD As System.Windows.Forms.Button
+    Friend WithEvents btnPlus As System.Windows.Forms.Button
+    Friend WithEvents btnTimes As System.Windows.Forms.Button
+    Friend WithEvents btnMinuse As System.Windows.Forms.Button
+    Friend WithEvents btnDivide As System.Windows.Forms.Button
+    Friend WithEvents btnPower As System.Windows.Forms.Button
+    Friend WithEvents btnMOD As System.Windows.Forms.Button
     Friend WithEvents lblNumber1 As System.Windows.Forms.Label
     Friend WithEvents lblOperation As System.Windows.Forms.Label
     Friend WithEvents lblNumber2 As System.Windows.Forms.Label
@@ -210,7 +210,24 @@ Partial Class Form1
     End Sub
     Friend WithEvents btnClear As System.Windows.Forms.Button
     Friend WithEvents btnExit As System.Windows.Forms.Button
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
+    Friend WithEvents txtNumber1 As System.Windows.Forms.TextBox
+    Friend WithEvents txtResult As System.Windows.Forms.TextBox
+    Friend WithEvents txtNumber2 As System.Windows.Forms.TextBox
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnPlus.Click
+        'This event handler preforms addition.
+        'Declare a varible to hold the result.
+        Dim dblResult As Double
+        ' Indicate "+" as the operaton.
+        lblOperation.Text = "+"
+        'Add the two numbers and store the result in dblResult
+        dblResult = CDbl(txtNumber1.Text) + CDbl(txtNumber2.Text)
+        'Desplay the result.
+        lblResult.Text = CStr(dblResult)
+
+    End Sub
+
+    Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
+
+    End Sub
 End Class
